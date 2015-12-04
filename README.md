@@ -1,13 +1,13 @@
 # Gabi's personal website
-=========================
 
-> [Ler em português](#Português)
+
+> [Ler em português](#português)
+
+
 
 ## English
 
-This website is hosted directly from a GitHub repository.
-
-This is possible through [Jekyll](https://github.com/jekyll/jekyll), the engine behind [GitHub Pages](http://pages.github.com/).
+This website is hosted directly from a GitHub repository. This is possible through [Jekyll](https://github.com/jekyll/jekyll), the engine behind [GitHub Pages](http://pages.github.com/).
 
 I'm using and adapting the [*folio theme](https://github.com/bogoli/-folio), developed by Lia Bogoev.
 
@@ -21,13 +21,15 @@ However, please don't use my personal data without my consent. I reserve the rig
 
 All other content is [MIT Licensed](http://opensource.org/licenses/MIT).
 
+
+
 ---
+
+
 
 ## Português
 
-Este website está hospedado diretamente num repositório Git.
-
-Isso é possível através do [Jekyll](https://github.com/jekyll/jekyll), um gerador de códigos estáticos que está por trás do [GitHub Pages](http://pages.github.com/).
+Este website está hospedado diretamente num repositório Git. Isso é possível através do [Jekyll](https://github.com/jekyll/jekyll), um gerador de códigos estáticos que está por trás do [GitHub Pages](http://pages.github.com/).
 
 Estou usando e adaptando o [tema *folio](https://github.com/bogoli/-folio), desenvolvido pela Lia Bogoev.
 
