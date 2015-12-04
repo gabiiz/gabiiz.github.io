@@ -1,6 +1,6 @@
 ---
 layout: page
-title: portfolio
+# title: portfolio # hide page for now
 permalink: /portfolio/
 ---
 
