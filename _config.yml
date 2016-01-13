@@ -1,8 +1,8 @@
 # Site settings
 title: gabriela scardine | developer
-description: Gabi's personal website
+description: "Gabriela Scardine, software developer."
 baseurl:  # the subpath of your site, e.g. /blog/
-url:  # the base hostname & protocol for your site
+url:  http://gscardine.github.io # the base hostname & protocol for your site
 
 # Owner/author information
 owner:
