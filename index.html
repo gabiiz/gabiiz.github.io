@@ -5,12 +5,54 @@ layout: default
 <div class="header-bar">
   <h1>gabriela scardine</h1>
   <h2>software developer</h2>
+</div>
+
+
+<div class="col three center">
   <br/>
-  <hr>
+  <hr/>
+  <br/>
+
+  <p>Contact me:</p>
+
+  <span class="contacticon">
+    {% if site.owner.email %}
+    <a href="mailto:{{ site.owner.email }}">
+      <i class="fa fa-envelope-square"></i>
+    </a>
+    {% endif %}
+    {% if site.owner.github %}
+    <a href="https://github.com/{{ site.owner.github }}" target="_blank">
+      <i class="fa fa-github-square"></i>
+    </a>
+    {% endif %}
+    {% if site.owner.linkedin %}
+    <a href="https://www.linkedin.com/in/{{ site.owner.linkedin }}" target="_blank">
+      <i class="fa fa-linkedin-square"></i>
+    </a>
+    {% endif %}
+    {% if site.owner.tumblr %}
+    <a href="http://tumblr.com/{{ site.owner.tumblr }}" target="_blank">
+      <i class="fa fa-tumblr-square"></i>
+    </a>
+    {% endif %}
+    {% if site.owner.twitter %}
+    <a href="https://twitter.com/{{ site.owner.twitter }}" target="_blank">
+      <i class="fa fa-twitter-square"></i>
+    </a>
+    {% endif %}
+  </span>
+
+  <p class="caption">
+     I am best reachable by email: gabrielascardine (at) gmail (dot) com
+  </p>
+
+  <br/>
+  <hr/>
   <br/>
 </div>
 
-<ul class="post-list">
+<!-- <ul class="post-list">
     {% for post in paginator.posts %}
       <li>
         <p class="post-meta">{{ post.date | date: '%B %-d, %Y' }}</p>
@@ -18,4 +60,4 @@ layout: default
         <p>{{ post.description }}</p>
       </li>
     {% endfor %}
-</ul>
+</ul> -->
