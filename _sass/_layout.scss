@@ -19,16 +19,11 @@
     line-height: $nav-height;
     letter-spacing: -1px;
     margin-bottom: 0;
-    &:hover {
-        text-decoration: none;
-        color: $theme-color;
-    }
 }
 .site-nav {
     position: fixed;
     top: 0px;
     right: 10px;
-    text-align: right;
     line-height: $nav-height;
     &:hover .trigger {
         display: block;
@@ -45,7 +40,6 @@
     }
     @include media-query(medium-up) {
         position: relative;
-        float: right;
     }
 }
 

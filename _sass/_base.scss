@@ -142,9 +142,9 @@ a {
     border-bottom: 1px dotted $text-color;
     /*
     &:visited {
-        color: darken($brand-color, 15%); 
-    }
-    */
+        color: darken($theme-color, 45%); 
+    }*/
+    
     &:hover {
         color: $theme-color;
         text-decoration: none;
@@ -158,6 +158,11 @@ article a {
     &:hover {
         text-decoration: none;
     }
+}
+
+a.active {
+    color: $theme-color;
+    text-decoration: none;
 }
 
 

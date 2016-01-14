@@ -4,17 +4,41 @@
 
     <nav class="site-nav">
 
-      <div class="trigger">
-        <!-- {{ site.title }} instead of blog -->
-        <a class="page-link" href="{{ site.baseurl }}/">home</a>
+      <div class="trigger right">
+        {% assign current_page = page.url %}
 
-        {% for page in site.pages %}
-          {% if (page.visible) %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+        <!-- Home page -->
+        {% assign class = nil %}
+        {% if current_page == "/" or site.baseurl contains current_page %}
+          {% assign class = 'active' %}
+        {% endif %}
+
+        <a class="page-link {{ class }}" href="{{ site.baseurl }}/">home</a>
+
+        <!-- Other visible pages -->
+        {% for item in site.pages %}
+
+          {% if (item.visible) %}
+            {% assign class = nil %}
+            {% if current_page contains item.url %}
+              {% assign class = 'active' %}
+            {% endif %}
+
+            <a href="{{ item.url | prepend: item.baseurl }}" 
+              class="page-link {{ class }}">
+              {{ item.title }}
+            </a>
           {% endif %}
         {% endfor %}
 
       </div>
+
+      <!-- Show title, except in the homepage -->
+      {% if (page.url != site.url) %}
+        <div class="site-title">
+          gabriela scardine
+        </div>
+      {% endif %}
     </nav>
 
   </div>
