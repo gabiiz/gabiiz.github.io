@@ -228,6 +228,20 @@
  .blankbox{
     background: $theme-color;
 }
+
+.row {
+    max-width: 75rem;
+    margin-left: auto;
+    margin-right: auto; 
+}
+    .row::before, .row::after {
+        content: ' ';
+        display: table; 
+    }
+    .row::after {
+        clear: both;
+    }
+
 .img_row{
     height: $img_height;
     width: 100%;
