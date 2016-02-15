@@ -1,6 +1,7 @@
 ---
 layout: page
-# title: portfolio # hide page for now
+title: portfolio
+visible: true
 permalink: /portfolio/
 ---
 
@@ -16,9 +17,7 @@ permalink: /portfolio/
         <div class="thumbnail blankbox"></div>
         {% endif %}    
         <span>
-            <h1>{{ project.title }}</h1>
-            <br/>
-            <p>{{ project.description }}</p>
+            
         </span>
         </a>
     </div>
@@ -26,6 +25,7 @@ permalink: /portfolio/
 {% else %}
 
 <div class="project ">
+    <h3>{{ project.title }}</h3>
     <div class="thumbnail">
         <a href="{{ site.baseurl }}{{ project.url }}">
         {% if project.img %}
@@ -34,9 +34,7 @@ permalink: /portfolio/
         <div class="thumbnail blankbox"></div>
         {% endif %}    
         <span>
-            <h1>{{ project.title }}</h1>
-            <br/>
-            <p>{{ project.description }}</p>
+            
         </span>
         </a>
     </div>

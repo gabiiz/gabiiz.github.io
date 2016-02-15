@@ -97,16 +97,16 @@ hr{
 
 
 /**
- * Figures
+ * Figures and images
  */
-figure > img {
+figure > img, img {
     display: block;
+    width: 100%;
 }
 
 figcaption {
     font-size: $small-font-size;
 }
-
 
 
 /**
