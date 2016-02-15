@@ -5,6 +5,8 @@ visible: true
 permalink: /portfolio/
 ---
 
+Some things I've done:
+
 {% for project in site.portfolio %}
 
 {% if project.redirect %}
