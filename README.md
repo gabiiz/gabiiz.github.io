@@ -1,4 +1,4 @@
-# Gabi's personal website
+# Gabriela Scardine - software developer
 
 
 > [Ler em português](#português)
