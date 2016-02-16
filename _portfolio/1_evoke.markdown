@@ -21,7 +21,7 @@ Quantica, São Paulo, SP (Brazil)
 
 
 <div class="row">
-	<img class="col two" src="{{ site.baseurl }}/img/portfolio/evoke_design.png" alt="" title="example image"/>
+	<img class="col two center" src="{{ site.baseurl }}/img/portfolio/evoke_design.png" alt="" title="example image"/>
 </div>
 <div class="col three caption">
 	Original wireframe and mockup by designer <a href="https://www.behance.net/danapo" target="_blank">Daniel Apolinario</a>

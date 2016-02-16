@@ -7,41 +7,30 @@ permalink: /portfolio/
 
 Some things I've done:
 
-{% for project in site.portfolio %}
+<div class="row">
+    {% for project in site.portfolio %}
 
-{% if project.redirect %}
-<div class="project">
-    <div class="thumbnail">
-        <a href="{{ project.redirect }}" target="_blank">
-        {% if project.img %}
-        <img class="thumbnail" src="{{ project.img }}"/>
-        {% else %}
-        <div class="thumbnail blankbox"></div>
-        {% endif %}    
-        <span>
-            
-        </span>
-        </a>
+    <div class="col one project">
+        <h3>{{ project.title }}</h3>
+        <div class="thumbnail">
+            {% if project.redirect %}
+            <a href="{{ project.redirect }}" target="_blank">
+            {% else %}
+            <a href="{{ site.baseurl }}{{ project.url }}">
+            {% endif %} 
+
+                {% if project.img %}
+                <img class="thumbnail" src="{{ project.img }}"/>
+                {% else %}
+                <div class="thumbnail blankbox"></div>
+                {% endif %}    
+                <span>
+
+                </span>
+
+            </a>
+        </div>
     </div>
+
+    {% endfor %}
 </div>
-{% else %}
-
-<div class="project ">
-    <h3>{{ project.title }}</h3>
-    <div class="thumbnail">
-        <a href="{{ site.baseurl }}{{ project.url }}">
-        {% if project.img %}
-        <img class="thumbnail" src="{{ project.img }}"/>
-        {% else %}
-        <div class="thumbnail blankbox"></div>
-        {% endif %}    
-        <span>
-            
-        </span>
-        </a>
-    </div>
-</div>
-
-{% endif %}
-
-{% endfor %}
