@@ -39,9 +39,26 @@ $canvas-large:           1024px;
 }
 
 
+/** Visibility ***********************************/
+
+.hide {
+    display: none !important;
+}
+
+.invisible {
+    visibility: hidden; 
+}
+
+@include media-query(small-only) {
+    .hide-for-small-only {
+        display: none !important; 
+    } 
+}
+
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
-        "syntax-highlighting"
+    "base",
+    "layout",
+    "syntax-highlighting"
 ;
