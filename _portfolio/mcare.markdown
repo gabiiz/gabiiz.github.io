@@ -3,7 +3,9 @@ layout: post
 title: mcare
 order: 5
 description: app for in-home consultations
-img: /img/portfolio/mCare_schedule.jpg
+blurb: mCare is an app support in-home consultations, created during a course on Fundamentals of Information Systems. In collaboration with Prof. Luciano Araujo, we published a paper in CBMS (IEEE).
+tags: [MOBILE, ANDROID, JAVA, mHealth]
+img: /img/portfolio/mCare_cover.jpg
 ---
 
 <div class="caption right">

@@ -3,6 +3,8 @@ layout: post
 title: sílabe
 order: 4
 description: platform for blended learning (web)
+blurb: "Sílabe is a teacher-centered platform to support blended learning. This education startup began in University of Sao Paulo's incubator, and was part of the Lemann Foundation's <a href='http://www.fundacaolemann.org.br/start-ed/' target='_blank'>Start-Ed Lab</a>."
+tags: [WEB, AGILE, SCRUM MASTER]
 img: /img/portfolio/silabe_website.png
 ---
 

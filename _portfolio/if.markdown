@@ -3,7 +3,9 @@ layout: post
 title: fluxogram interpreter
 order: 6
 description: a fluxogram interpreter
-img: /img/portfolio/fluxogram_interpreter.jpg
+blurb: Back in 2010, I worked in a fluxogram interpreter as the final project of my Informatics Technical Degree. Our aim was to help learning and teaching programming logic.
+tags: [WEB, HTML, CSS, JS, PHP]
+img: /img/portfolio/fluxogram_interpreter_small.jpg
 ---
 
 Final project for my vocational school Technical degree in Informatics (Software Development) in 2010.

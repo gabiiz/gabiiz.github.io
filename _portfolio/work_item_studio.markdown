@@ -3,7 +3,9 @@ layout: post
 title: work item studio
 order: 3
 description: app to manage agile projects in Visual Studio Online (Windows Phone)
-img: /img/portfolio/work_item_studio_cover.png
+blurb: "During a summer internship at Microsoft Cambridge, I worked with 3 other interns to build <a href='https://www.microsoft.com/en-us/garage/#app-work-item-studio' target='_blank'>Work Item Studio</a>, a Windows Phone app to manage projects in the Visual Studio Online platform."
+tags: [MOBILE, AGILE, C#, XAML, REST API]
+img: /img/portfolio/work_item_studio_cover_small.jpg
 ---
 
 

@@ -3,6 +3,8 @@ layout: post
 title: evoke
 order: 1
 description: entrepreneurship for a better world (web)
+blurb: Worked with the World Bank in a gamified platform in which players tackle world problems, collaborating to create innovative solutions, while developing 21st century skills.
+tags: [WEB, AGILE, HTML, CSS, JS, PHP, CakePHP, Foundation, EmberJS]
 img: /img/portfolio/evoke_missionpage.jpg
 ---
 

@@ -1,9 +1,11 @@
 ---
 layout: post
-title: project gallery
+title: projects gallery
 order: 2
-description: gallery for the open innovation network (with MIT Law)
-img: /img/portfolio/project_gallery.jpg
+description: gallery for the open innovation network
+blurb: "Worked with MIT Media Lab's <a href='http://dazzagreenwood.com/bio.html' target='_blank'>Dazza Greenwood</a> to create extensible galleries for open source projects. This project started during the MIT Napkins2Launch class in January 2016."
+tags: [WEB, Github API, HTML, CSS, JS, JSON, MaterializeCSS]
+img: /img/portfolio/project_gallery_small.jpg
 ---
 
 I have been working with Dazza Greenwood, lecturer and researcher at the MIT Media Lab, to develop a Project Gallery for the Open Innovation Network.
