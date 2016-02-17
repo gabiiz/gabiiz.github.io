@@ -1,6 +1,7 @@
 ---
 layout: post
 title: fluxogram interpreter
+order: 6
 description: a fluxogram interpreter
 img: /img/portfolio/fluxogram_interpreter.jpg
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: work item studio
+order: 3
 description: app to manage agile projects in Visual Studio Online (Windows Phone)
 img: /img/portfolio/work_item_studio_cover.png
 ---

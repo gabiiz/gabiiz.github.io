@@ -1,6 +1,7 @@
 ---
 layout: post
 title: project gallery
+order: 2
 description: gallery for the open innovation network (with MIT Law)
 img: /img/portfolio/project_gallery.jpg
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: evoke
+order: 1
 description: entrepreneurship for a better world (web)
 img: /img/portfolio/evoke_missionpage.jpg
 ---

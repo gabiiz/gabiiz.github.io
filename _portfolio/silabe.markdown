@@ -1,6 +1,7 @@
 ---
 layout: post
 title: sílabe
+order: 4
 description: platform for blended learning (web)
 img: /img/portfolio/silabe_website.png
 ---

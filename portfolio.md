@@ -8,7 +8,8 @@ permalink: /portfolio/
 Some things I've done:
 
 <div class="row">
-    {% for project in site.portfolio %}
+    {% assign sorted_pages = site.portfolio | sort:"order" %}
+    {% for project in sorted_pages %}
 
     <div class="col one project">
         <h3>{{ project.title }}</h3>
