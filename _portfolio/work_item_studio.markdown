@@ -20,17 +20,29 @@ Microsoft New England R&D, Cambridge, MA (United States)
 * Developed an app from beginning to end (Work Item Studio), shipped to the Windows Phone Store.
 * Team used Agile methodology. Development involved C#, XAML, and Visual Studio Online REST APIs.
 
+<div class="row center">
+    <a href="https://www.microsoft.com/en-us/garage/#app-work-item-studio" target="_blank">
+      <i class="fa fa-television"></i> Website
+    </a>
+    &nbsp;&nbsp;
+    <a href="http://www.windowsphone.com/en-us/store/app/work-item-studio/be300b77-0859-41ee-8b76-9b935b4369bf" target="_blank">
+      <i class="fa fa-mobile"></i> Windows Phone store
+    </a>
+</div>
+
+<br />
+
 <div class="img_row">
-	<img class="col one" src="{{ site.baseurl }}/img/portfolio/work_item_studio_cover.png" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/portfolio/work_item_studio_project.png" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/portfolio/work_item_studio_queries.png" alt="" title="example image"/>
+	<img class="col one center" src="{{ site.baseurl }}/img/portfolio/work_item_studio.png" alt="" title="example image"/>
 </div>
 <div class="col three caption">
-	Screenshots of the app
+	App opening
 </div>
 <div class="img_row">
+
+	<img class="col one" src="{{ site.baseurl }}/img/portfolio/work_item_studio_project.png" alt="" title="example image"/>
+	<img class="col one" src="{{ site.baseurl }}/img/portfolio/work_item_studio_queries.png" alt="" title="example image"/>
 	<img class="col one" src="{{ site.baseurl }}/img/portfolio/work_item_studio_tasks.png" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/portfolio/work_item_studio_website.png" alt="" title="example image"/>
 </div>
 <div class="col three caption">
 	Screenshots of the app

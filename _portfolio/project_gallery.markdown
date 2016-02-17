@@ -17,7 +17,9 @@ I have been working with Dazza Greenwood, lecturer and researcher at the MIT Med
 	Project Gallery for the <a href="http://codexhackathon.com/" target="_blank">2016 Codex Hackathon</a>
 </div>
 
-<div class="col three center">
+<br />
+
+<div class="row center">
     <a href="http://github.com/OpenInnovationNetwork/Projects/" target="_blank">
       <i class="fa fa-github-square"></i> Source code
     </a>

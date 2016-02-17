@@ -22,7 +22,6 @@ Quantica, São Paulo, SP (Brazil)
 * Conducted user testing sessions, redesigned the platform, created an Agile product roadmap, developed new features.
 * Development involved the use of the frameworks CakePHP, Foundation, and Ember.js.
 
-
 <div class="row">
 	<img class="col two center" src="{{ site.baseurl }}/img/portfolio/evoke_design.png" alt="" title="example image"/>
 </div>

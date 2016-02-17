@@ -21,6 +21,14 @@ Sílabe, São Paulo, SP (Brazil)
 * Promoted alignment between the Marketing team and the Development team.
 
 
+<div class="row center">
+    <a href="http://www.silabe.com.br" target="_blank">
+      <i class="fa fa-television"></i> Silabe's website
+    </a>
+</div>
+
+<br />
+
 <div class="img_row">
 	<img class="col one" src="{{ site.baseurl }}/img/portfolio/silabe_classes.png" alt="" title="example image"/>
 	<img class="col one" src="{{ site.baseurl }}/img/portfolio/silabe_class.png" alt="" title="example image"/>
