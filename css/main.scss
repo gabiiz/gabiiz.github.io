@@ -41,19 +41,30 @@ $canvas-large:           1024px;
 
 /** Visibility ***********************************/
 
-.hide {
-    display: none !important;
-}
-
 .invisible {
     visibility: hidden; 
 }
 
+@mixin hide() {
+	display: none !important;
+}
+
+.hide {
+    @include hide();
+}
+
 @include media-query(small-only) {
     .hide-for-small-only {
-        display: none !important; 
-    } 
+        @include hide();
+    }
 }
+
+@include media-query(medium-up) {
+	.hide-for-medium {
+	    @include hide();
+	}
+}
+
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)

@@ -52,5 +52,6 @@ Some things I've done:
             {% endfor %}
         </div>
     </div>
+
 </div>
 {% endfor %}
