@@ -11,9 +11,14 @@ dl, dd, ol, ul, figure {
 
 
 /** Variables **********************************************/
-$horizontal-spacing-unit:       2em;
-$vertical-spacing-unit:         2em;
 $nav-height:                    56px;
+$horizontal-spacing-unit:       1em;
+$vertical-spacing-unit:         1em;
+
+@include media-query(medium-up) {
+    $horizontal-spacing-unit:   2em;
+    $vertical-spacing-unit:     2em;
+}
 
 /* portfolio tinkering */
 $img_spacing: 5px; 
@@ -227,15 +232,21 @@ pre {
  */ 
 
 .wrapper {
-    max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit} * 2));
-    max-width:         calc(800px - (#{$horizontal-spacing-unit} * 2));
+    max-width: -webkit-calc(1024px - (#{$horizontal-spacing-unit} * 2));
+    max-width:         calc(1024px - (#{$horizontal-spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
     padding-right: $horizontal-spacing-unit;
     padding-left: $horizontal-spacing-unit;
     @extend %clearfix;
-
 }
+
+/*@include media-query(medium-up) {
+    .wrapper {
+        padding-right: $horizontal-spacing-unit;
+        padding-left: $horizontal-spacing-unit;
+    }
+}*/
 
 
 /**
@@ -257,4 +268,5 @@ pre {
  */
 .font-size-small {
     font-size: $small-font-size;
+    line-height: 1.8em;
 }
