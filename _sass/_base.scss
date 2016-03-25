@@ -205,6 +205,11 @@ button.active, a.button.active {
     color: #FFFFFF;
 }
 
+/* Google Chrome fix */
+button:focus, a.button:focus {
+    outline:0;
+}
+
 /**
  * Blockquotes
  */
