@@ -15,7 +15,6 @@ window.onload = function(event) {
 
 	var toggleFilter = function(obj, tag) {
 		return function() { 
-			console.log("1"+tag);
 			clearFilters();
 			obj.className = "btn active";
 			filterByTag(tag);
@@ -23,9 +22,8 @@ window.onload = function(event) {
 	};
 
 	var filterByTag = function(tag){
-		console.log("2"+tag);
 		projectsList.filter(function(item) {
-			if (item.values().project_tags.contains(tag)) {
+			if (item.values().project_tags.indexOf(tag) != -1) {
 				return true;
 			} else {
 				return false;
@@ -33,7 +31,6 @@ window.onload = function(event) {
 		});
 		return false;
 	};
-
 
 
 	var filterWeb = document.getElementById('filter-web');
