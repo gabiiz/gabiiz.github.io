@@ -10,7 +10,7 @@ permalink: /portfolio/
 <div id="projects">
     <p>These are some of the projects I liked the most to work on :)</p>
     <p>
-        Filter them by tag: <input class="search" placeholder="Start typing" />
+        Filter projects by tag: <input class="search" placeholder="Start typing" />
         <button class="btn active" id="filter-clear">ALL</button>
         <button class="btn" id="filter-web">WEB</button>
         <button class="btn" id="filter-mobile">MOBILE</button>
