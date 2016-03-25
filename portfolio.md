@@ -5,12 +5,10 @@ visible: true
 permalink: /portfolio/
 ---
 
-<script src="http://cdnjs.cloudflare.com/ajax/libs/list.js/1.2.0/list.min.js"></script>
-
 <div id="projects">
     <p>These are some of the projects I liked the most to work on :)</p>
     <p>
-        Filter projects by tag: <input class="search" placeholder="Start typing" />
+        Filter projects by tag: <input class="search" placeholder="For example, C#" />
         <button class="btn active" id="filter-clear">ALL</button>
         <button class="btn" id="filter-web">WEB</button>
         <button class="btn" id="filter-mobile">MOBILE</button>
@@ -68,4 +66,5 @@ permalink: /portfolio/
     </div>
 </div>
 
+<script src="http://cdnjs.cloudflare.com/ajax/libs/list.js/1.2.0/list.min.js"></script>
 <script src="/js/portfolio.js"></script>

@@ -178,6 +178,9 @@
 .clearfix:after {
     clear: both;
 }
+#projects .list {
+    margin-top: $vertical-spacing-unit * 2;
+}
 .project {
     position: relative;
     margin-bottom: 50px;
@@ -190,6 +193,7 @@
 }
 .col.project_image {
     height: 250px;
+    width: 250px;
     float: left;
     vertical-align: middle;
     box-sizing: border-box;
